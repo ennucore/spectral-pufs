@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "unclonix"
+version = "0.1.0"
+description = ""
+authors = ["Lev <lc@lev.la>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+torch = "^2.5.1"
+scipy = "^1.14.1"
+scikit-learn = "^1.5.2"
+seaborn = "^0.13.2"
+nistrng = "^1.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
